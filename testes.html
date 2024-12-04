@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax CSS</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+        .parallax {
+            height: 100vh; /* Altura de 100% do ecrã */
+            background-image: url('logo.png');
+            background-attachment: fixed; /* Fixa o fundo */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .conteudo {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: Arial, sans-serif;
+            color: #fff;
+            background-color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="parallax"></div>
+    <div class="conteudo">
+        <h1>Bem-vindo ao Efeito Parallax!</h1>
+    </div>
+    <div class="parallax"></div>
+</body>
+</html>

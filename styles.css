@@ -1,3 +1,19 @@
+header {
+    background-color: #003366;
+    height: 100px; /* Define a altura do header */  
+    display: flex;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Sombra no texto */
+}
+
+header #logo {
+    float: left;
+    height: 102px;
+    max-height: 100%;
+    width: 130px;       
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -6,24 +22,40 @@ body {
     padding: 0;
 }
 
-header {
-    background-color: #003366;
-    color: #fff;
-    padding: 1rem;
-    text-align: center;
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 10px 0 50px;
+    
 }
+
+.navbar a {
+    color: rgb(209, 204, 204);
+    padding: 0 15px; 
+}
+
+
 
 nav ul {
     list-style-type: none;
     padding: 0;
 }
 
+nav a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+
+
 nav ul li {
     display: inline;
     margin: 0 1rem;
 }
 
-nav ul li a {
+nav ul li a {   
     color: #fff;
     text-decoration: none;
 }
@@ -34,6 +66,14 @@ main {
 
 h1 {
     color: #003366;
+}
+
+.container-banner {
+    padding: 250px;
+    background-image: url('Banner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .curso, .banner, form {
@@ -53,6 +93,8 @@ h1 {
     background-color: #003366;
     color: #fff;
     text-decoration: none;
+    align-items: center;
+    justify-content: center;
 }
 
 footer {
