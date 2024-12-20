@@ -1,44 +1,155 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cursos - Escola B-learning</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Cursos</title>
+    <link rel="stylesheet" href="styles/cursos.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
 </head>
+
 <body>
 
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Início</a></li>
-                <li><a href="cursos.html">Cursos</a></li>
-                <li><a href="sobre.html">Sobre a Escola</a></li>
-                <li><a href="contato.html">Fale Conosco</a></li>
-                <li><a href="login.html">Área do Estudante</a></li>
+    <nav class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">EST ACADEMY</a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">Inicio</a></li>
+                <li class="active"><a href="cursos.html">Cursos</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contacto</a></li>
             </ul>
-        </nav>
-    </header>
+        </div>
+    </nav>
+
+
+    <div class="intro-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-3">
+                    <img class="img-responsive tpad" src="media/imagens/icon_cursos.jpg">
+                </div>
+                <div class="col-xs-9">
+                    <h1><span class="text-muted">Escolhe já o teu curso!</span></h1>
+                    <p class="lead">Descobre o mundo da tecnologia com nossos cursos de programação, criados para todos
+                        os níveis, do iniciante ao avançado. Domina as linguagens mais procuradas no mercado, como
+                        Python, JavaScript, Java, C#, e muito mais!.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container padded">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>Cursos</h2>
+                <hr>
+            </div>
+        </div>
+        <div class="row tpad myTooltip">
+            <div class="col-sm-6 col-md-3 bpad">
+                <a href="#" data-toggle="tooltip" title data-original-title="client one" class="thumbnail">
+                    <img src="media/imagens/Icon_Python.jpg" alt="logo">
+                </a>
+                <figcaption class="figure-caption text-center">Curso de python.</figcaption>
+            </div>
+            <div class="col-sm-6 col-md-3 bpad">
+                <a href="#" data-toggle="tooltip" title data-original-title="client two" class="thumbnail">
+                    <img src="media/imagens/Icon_javascript.jpg" alt="logo">
+                </a>
+                <figcaption class="figure-caption text-center">Curso de JavaScript.</figcaption>
+            </div>
+            <div class="col-sm-6 col-md-3 bpad">
+                <a href="#" data-toggle="tooltip" title data-original-title="client three" class="thumbnail">
+                    <img src="media/imagens/icon_sharp.jpg" alt="logo">
+                </a>
+                <figcaption class="figure-caption text-center">Curso de C#.</figcaption>
+            </div>
+            <div class="col-sm-6 col-md-3 bpad">
+                <a href="#" data-toggle="tooltip" title data-original-title="client four" class="thumbnail">
+                    <img src="media/imagens/icon_php.jpg" alt="logo">
+                </a>
+                <figcaption class="figure-caption text-center">Curso de php.</figcaption>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-3 bpad">
+            <a href="#" data-toggle="tooltip" title data-original-title="client five" class="thumbnail">
+                <img src="media/imagens/Icon_Mysql.jpg" alt="logo">
+            </a>
+            <figcaption class="figure-caption text-center">Curso de My sql.</figcaption>
+        </div>
+        <div class="col-sm-6 col-md-3 bpad">
+            <a href="#" data-toggle="tooltip" title data-original-title="client six" class="thumbnail">
+                <img src="media/imagens/icon_html.jpg" alt="logo">
+            </a>
+            <figcaption class="figure-caption text-center">Curso de HTML.</figcaption>
+        </div>
+        <div class="col-sm-6 col-md-3 bpad">
+            <a href="#" data-toggle="tooltip" title data-original-title="client seven" class="thumbnail">
+                <img src="media/imagens/icon_css.jpg" alt="logo">
+            </a>
+            <figcaption class="figure-caption text-center">Curso de CSS.</figcaption>
+        </div>
+        <div class="col-sm-6 col-md-3 bpad">
+            <a href="#" data-toggle="tooltip" title data-original-title="client eight" class="thumbnail">
+                <img src="media/imagens/incon_Node_js.jpg" alt="logo">
+            </a>
+            <figcaption class="figure-caption text-center">Curso de Node js.</figcaption>
+        </div>
     
-    <main>
-        <h1>Nossos Cursos</h1>
-        <div class="curso">
-            <h2>Curso de Programação em Python</h2>
-            <p>Aprenda a programar em Python, uma das linguagens mais populares do mundo.</p>
-            <a href="DetalhesCurso.html" class="btn">Ver Detalhes</a>
-        </div>
+    </div>
+    </div>
+    </div>
 
-        <div class="curso">
-            <h2>Curso de Design Gráfico</h2>
-            <p>Explore o mundo do design gráfico e aprenda a criar projetos visuais impactantes.</p>
-            <a href="detalhes-curso.html?curso=design-grafico" class="btn">Ver Detalhes</a>
-        </div>
 
-        <!-- Adicione mais cursos conforme necessário -->
-    </main>
+    <footer class="bg text-white text-center py-3 mt-4">
 
-    <footer>
-        <p>© 2024 Escola B-learning. Todos os direitos reservados.</p>
+        <p style="margin: 10px;">© 2024 EST ACADEMY. Todos os direitos reservados.</p>
+        <a href="https://facebook.com" aria-label="facebook"><i class="bi bi-facebook"></i></a>
+
+        <a href="https://https://www.instagram.com/" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+
+        <a href="https://https://www.threads.net/" aria-label="Threads"><i class="bi bi-threads"></i></a>
+
+        <a href="https://pt.linkedin.com/" aria-label="Linkedin"><i class="bi bi-linkedin"></i></a>
+
+        <a href="https://github.com/JohnAntu99/" aria-label="Github"><i class="bi bi-github"></i></a>
+
     </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js"
+        integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+        crossorigin="anonymous"></script>
+
+
 </body>
-</html>
+
+
+</html
